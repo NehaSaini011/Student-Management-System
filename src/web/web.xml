@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>AddStudent</servlet-name>
+    <servlet-class>web.AddStudentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AddStudent</servlet-name>
+    <url-pattern>/addStudent</url-pattern>
+</servlet-mapping>
